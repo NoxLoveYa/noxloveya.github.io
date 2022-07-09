@@ -15,38 +15,55 @@ body {
     position: relative;
 }
 
-.item-1 {
+.item {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
     position: absolute;
     text-align: center;
 
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    transform: translate(0, -50%);
 
     color:white;
-    border-color: transparent;
-
-    border-style: solid;
 }
 
-a {
+.lol {
     color: white;
     text-decoration: underline;
-    padding: 8px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
 
     box-shadow: 0 0 30px rgb(89, 0, 255);
 
-    border-radius: 8px;
+    border-radius: 10px;
+}
+
+.lol1 {
+    text-decoration: none;
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+
     position: absolute;
 
     top: 100%;
     left: 50%;
     transform: translate(-50%, -100%);
 
-    padding: 2px;
+    padding: 8px;
 
     color: #fff;
+}
+
+.contact {
+    
+    color: white;
+    text-underline-offset: 3px;
 }
