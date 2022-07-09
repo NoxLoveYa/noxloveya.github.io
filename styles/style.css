@@ -1,0 +1,42 @@
+* {
+    background-color: #03000a;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pages {
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    position: relative;
+}
+
+.item-1 {
+    position: absolute;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color:white;
+    border-color: transparent;
+
+    border-style: solid;
+}
+
+footer {
+    position: absolute;
+
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+    padding: 2px;
+
+    color: #fff;
+}
