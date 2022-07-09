@@ -29,6 +29,16 @@ body {
     border-style: solid;
 }
 
+a {
+    color: white;
+    text-decoration: underline;
+    padding: 8px;
+
+    box-shadow: 0 0 30px rgb(89, 0, 255);
+
+    border-radius: 8px;
+}
+
 footer {
     position: absolute;
 
