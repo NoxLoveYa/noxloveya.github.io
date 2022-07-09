@@ -1,18 +1,27 @@
 * {
-    background-color: #03000a;
+    background-color: transparent;
     font-family: Arial;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-size: 100% auto;
+    background-color: #03000a;
 }
 
 .pages {
     width: 100vw;
     height: 100vh;
     color:white;
+    background-color: rgba(0, 0, 0, 0.85);
+    background-size: cover;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
     position: relative;
+    background-image: url(ressources/background.jpg);
+    background-position: center;
+    opacity: 1;
 }
 
 .item {
@@ -28,14 +37,17 @@ body {
     transform: translate(0, -50%);
 
     color:white;
+    background-color: transparent;
 }
 
 .lol {
     color: white;
+    background-color: #03000a;
     text-decoration: underline;
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
+    border: none;
     
 
     box-shadow: 0 0 30px rgb(89, 0, 255);
@@ -60,6 +72,7 @@ footer {
     padding: 8px;
 
     color: #fff;
+    background-color: transparent;
 }
 
 .contact {
